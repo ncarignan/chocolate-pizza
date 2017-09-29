@@ -1,0 +1,52 @@
+body{
+  font-family: serif;
+  width:960px;
+  margin:auto;
+}
+header{
+  height: 100px;
+}
+#logo{
+  float:left;
+  margin:30 0;
+}
+#logoText{
+  float:left;
+}
+nav{
+  float:right;
+  margin: 0 auto;
+  width:400px;
+  height:100px;
+}
+nav ul li{
+  display:inline-block;
+}
+/*break bar{
+height:15px;
+make it angled lines
+}*/
+h1{
+  font-size:28px;
+  font-family: sans-serif;
+  width:25%
+}
+h4{
+  font-size: 12px;
+  font-family: sans-serif;
+  width:25%
+}
+main button{
+  float:right;
+}
+main img{
+  width:960px;
+}
+main p{
+  font-family: sans-serif;
+}
+main ul{
+  float:left;
+  width:40%;
+  margin:0 5%;
+}
