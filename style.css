@@ -142,3 +142,7 @@ footer ul{
   width:10px;
   height:10px;
 }
+
+input[type=checkbox]:checked + label.strikethrough {
+  text-decoration: line-through;
+}
