@@ -1,3 +1,6 @@
+*{
+  border: red solid 1px;
+}
 body{
   font-family: serif;
   width:960px;
@@ -6,6 +9,10 @@ body{
 header{
   height: 100px;
   border-bottom: dashed #444 10px;
+}
+#logo{
+  float:left;
+  margin:30 0;
 }
 header h2{
   margin: 30px 0 0 5px;
@@ -33,7 +40,7 @@ nav ul li{
 }
 
 main {
-  margin-bottom: 12%;
+  margin-bottom: 4%;
   height: 1200px;
   border-bottom: dashed black 10px;
 
@@ -64,37 +71,49 @@ main p{
   font-family: sans-serif;
   text-indent: 50px;
   margin-top:25px;
+  margin-bottom:25px;
 }
+
 main ul{
   float:left;
   width:40%;
   margin:0 5%;
 }
-/*footer img{
+
+#vanessa{
 float:left;
-}*/
+border: red solid 1px;
+}
 #author{
   float:left;
   width:75%;
+  border: red solid 1px;
 }
 footer{
-  /*height:300px;*/
-  border-top: dashed black 10px;
-  border: solid red 1px;
+border: red solid 1px;
+  width:100%;
 }
 
-/*footer button{
+footer button{
   float:right;
   background-color:brown;
   width: 160px;
   height:40px;
-}*/
+  border: red solid 1px;
+}
+footer ul{
+  margin:auto;
+  border: red solid 1px;
+  width:300px;
+  text-align: center;
+  font-size: 14px;
+}
+#abc{
+  margin:100px 45%;
+  width:100px;
+  border: red solid 1px;
+}
 
-}
-#logo{
-  float:left;
-  margin:30 0;
-}
 #logoText{
   float:left;
 }
@@ -105,8 +124,4 @@ footer{
 #printImage{
   width:10px;
   height:10px;
-}
-
-input[type=checkbox]:checked + label.strikethrough {
-  text-decoration: line-through;
 }
