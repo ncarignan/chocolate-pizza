@@ -1,6 +1,7 @@
 *{
 }
 body{
+
   font-family: serif;
   width:960px;
   margin:auto;
@@ -116,10 +117,6 @@ footer ul{
 }
 #abc{
   margin:60px 48% 20px 48%;
-  /*width:100px;*/
-}
-#checks{
-  background-image: url('img/list-bg.png')
 }
 #logoText{
   float:left;
