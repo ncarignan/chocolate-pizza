@@ -15,12 +15,13 @@ header{
 }
 header h2{
   margin: 30px 0 0 5px;
-  font-family:serif;
+  font-family: 'Yellowtail', cursive;
   font-size: 24px;
 }
 header p{
   font-size: 12px;
   margin: 5px 0 0 5px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 header img{
   margin-top:40px;
@@ -46,12 +47,12 @@ main {
 main h1{
   margin-top:50px;
   font-size:28px;
-  font-family: monospace;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
 main h4{
   font-size: 12px;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 main button{
@@ -66,7 +67,7 @@ main img{
   margin-top:30px;
 }
 main p{
-  font-family: sans-serif;
+  font-family: 'Lora', serif;
   text-indent: 50px;
   margin-top:25px;
   margin-bottom:25px;
@@ -94,11 +95,20 @@ footer{
 footer h3{
   font-weight: bold;
   font-size:18px;
-  font-family:serif;
+  font-family:'Lora', serif;
   margin-left:7px;
 }
 footer p{
   margin-left:7px;
+  font-family: 'Lora', serif;
+}
+
+footer li {
+  font-family: 'Lora', serif;
+}
+
+label {
+  font-family: 'Patrick Hand', cursive;
 }
 
 footer button{
