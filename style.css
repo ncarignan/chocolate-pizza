@@ -19,6 +19,9 @@ nav{
   width:400px;
   height:100px;
 }
+nav ul{
+  list-style: none;
+}
 nav ul li{
   display:inline-block;
 }
@@ -44,9 +47,15 @@ main img{
 }
 main p{
   font-family: sans-serif;
+  text-indent: 50px;
 }
 main ul{
   float:left;
   width:40%;
   margin:0 5%;
+}
+
+#printImage{
+  width:10px;
+  height:10px;
 }
